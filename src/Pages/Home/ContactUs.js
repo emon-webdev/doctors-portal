@@ -13,9 +13,9 @@ const ContactUs = () => {
       <div className="hero">
         <div className="hero-content p-0 text-center">
           <div className="max-w-md">
-            <div class="section-title text-center mb-10">
-              <h2 class="text-xl font-bold text-primary">Contact Us</h2>
-              <p class="font-bold text-4xl text-white">
+            <div className="section-title text-center mb-10">
+              <h2 className="text-xl font-bold text-primary">Contact Us</h2>
+              <p className="font-bold text-4xl text-white">
                 Stay connected with us
               </p>
             </div>
@@ -35,7 +35,7 @@ const ContactUs = () => {
                 placeholder="Your message"
               ></textarea>
               <div>
-                <button type="submit" class="primary-btn ">
+                <button type="submit" className="primary-btn ">
                   Submit
                 </button>
               </div>

@@ -34,12 +34,12 @@ const Testimonials = () => {
   return (
     <section className="max-w-[1400px] mx-auto px-4">
       <div className="flex justify-between">
-        <div class="section-title">
-          <h2 class="text-xl font-bold text-primary">Testimonial</h2>
-          <p class="font-bold text-4xl text-accent">What Our Patients Says</p>
+        <div className="section-title">
+          <h2 className="text-xl font-bold text-primary">Testimonial</h2>
+          <p className="font-bold text-4xl text-accent">What Our Patients Says</p>
         </div>
         <figure>
-          <img src={quote} className=" w-24 lg:w-48" alt="" srcset="" />
+          <img src={quote} className=" w-24 lg:w-48" alt="" srcSet="" />
         </figure>
       </div>
       <div className="max-w-[1400px] mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
