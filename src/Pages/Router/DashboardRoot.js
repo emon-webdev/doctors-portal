@@ -37,6 +37,9 @@ const DashboardRoot = () => {
                 <li>
                   <Link to="/dashboard/addDoctor">Add Doctors</Link>
                 </li>
+                <li>
+                  <Link to="/dashboard/manageDoctor">Manage Doctors</Link>
+                </li>
               </>
             )}
           </ul>
